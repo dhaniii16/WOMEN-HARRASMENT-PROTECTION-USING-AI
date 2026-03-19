@@ -63,15 +63,7 @@ streamlit run ui.py
 Please download separately and place them inside the `data/` folder.
 
 
----
 
-## 👩‍💻 Collaborators  
-
-- **Harshita Purohit(https://github.com/purohitharshita)**  
-- **Harsha Rani C(https://github.com/HarshaRani23)**
-- **Keerthana KB(https://github.com/Keerthana-kb)**
-
----
 
 ## 📄 License
 This project is licensed under the **MIT License**.
