@@ -21,7 +21,6 @@ Datasets:
 ⚙️ Installation & Setup
 1. Clone the Repository
 
-git clone https://github.com/purohitharshita/offline-harassment-detection.git
 cd offline-harassment-detection
 2. Create Virtual Environment
 
