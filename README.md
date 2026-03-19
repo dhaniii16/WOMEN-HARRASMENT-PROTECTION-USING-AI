@@ -23,17 +23,17 @@ Datasets:
 
 cd offline-harassment-detection
 2. Create Virtual Environment
-
 python -m venv myenv
 # Activate Virtual Environment
 source myenv/bin/activate     # Linux/Mac
 myenv\Scripts\activate        # Windows
+
 3. Install Dependencies
-
 pip install -r requirements.txt
-4. Run the Application
 
+5. Run the Application
 streamlit run ui.py
+
 📊 Datasets
 🎥 RLVS - Real-Life Violence Situations
 🎥 RWF-2000 (Alternative Violence Dataset)
