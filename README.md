@@ -1,42 +1,77 @@
-# WOMEN-HARRASMENT-PROTECTION-USING-AI
-Developed an AI-based offline harassment detection system using audio emotion recognition and video analysis to identify potential threats. Implemented deep learning models with Keras and BiLSTM, and built an interactive interface using Streamlit.
+# 🚨 Offline Harassment Detection  
 
+Welcome to **Offline Harassment Detection**, an AI-powered project designed to detect violent and harassment-related activities in real-time.  
+This system integrates both **audio** 🎙️ and **video** 🎥 models and works **without internet connectivity**.  
 
-🚨 Offline Harassment Detection
-Welcome to Offline Harassment Detection, an AI-powered project designed to detect violent and harassment-related activities in real-time.
-This system integrates both audio 🎙️ and video 🎥 models and works without internet connectivity.
+---
 
-✨ Features
-Dual-Modality Detection: Combines audio + video analysis for higher accuracy.
-Offline Functionality: Works seamlessly without internet connectivity.
-Streamlit UI: Clean, simple, and interactive user interface.
-Modular Codebase: Separated utilities, models, and UI for scalability.
-🛠️ Tech Stack
-Programming Language: Python 3.x
-Deep Learning Framework: TensorFlow / Keras
-Frontend: Streamlit
-Datasets:
-🎥 RLVS (Violence/Non-Violence video dataset)
-🎙️ RAVDESS (Emotional speech dataset for audio classification)
-⚙️ Installation & Setup
-1. Clone the Repository
+## ✨ Features  
 
+- **Dual-Modality Detection**: Combines audio + video analysis for higher accuracy.  
+- **Offline Functionality**: Works seamlessly without internet connectivity.  
+- **Streamlit UI**: Clean, simple, and interactive user interface.  
+- **Modular Codebase**: Separated utilities, models, and UI for scalability.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Programming Language**: Python 3.x  
+- **Deep Learning Framework**: TensorFlow / Keras  
+- **Frontend**: Streamlit  
+- **Datasets**:  
+  - 🎥 RLVS (Violence/Non-Violence video dataset)  
+  - 🎙️ RAVDESS (Emotional speech dataset for audio classification)  
+
+---
+
+## ⚙️ Installation & Setup  
+**1. Clone the Repository**
+```bash
+git clone https://github.com/purohitharshita/offline-harassment-detection.git
 cd offline-harassment-detection
-2. Create Virtual Environment
+
+```
+
+**2. Create Virtual Environment**
+```bash
 python -m venv myenv
 # Activate Virtual Environment
 source myenv/bin/activate     # Linux/Mac
 myenv\Scripts\activate        # Windows
 
-3. Install Dependencies
+```
+
+**3. Install Dependencies**
+```bash
 pip install -r requirements.txt
-
-5. Run the Application
+```
+**4. Run the Application**
+```bash
 streamlit run ui.py
+```
 
-📊 Datasets
-🎥 RLVS - Real-Life Violence Situations
-🎥 RWF-2000 (Alternative Violence Dataset)
-🎙️ RAVDESS - Emotional Speech Audio
-⚠️ Datasets are not included due to size.
-Please download separately and place them inside the data/ folder.
+
+
+## 📊 Datasets  
+
+- 🎥 [RLVS - Real-Life Violence Situations](https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset)  
+- 🎥 [RWF-2000 (Alternative Violence Dataset)](https://www.kaggle.com/datasets/vulamnguyen/rwf2000)  
+- 🎙️ [RAVDESS - Emotional Speech Audio](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)  
+
+⚠️ Datasets are **not included** due to size.  
+Please download separately and place them inside the `data/` folder.
+
+
+---
+
+## 👩‍💻 Collaborators  
+
+- **Harshita Purohit(https://github.com/purohitharshita)**  
+- **Harsha Rani C(https://github.com/HarshaRani23)**
+- **Keerthana KB(https://github.com/Keerthana-kb)**
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License**.
